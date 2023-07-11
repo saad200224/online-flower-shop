@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header design starts here */
+
+.banner{
+    width: auto;
+    background-color: rgba(229, 84, 115, 0.10);
+    gap: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 240px 0px 240px;
+}
+
+.banner-content{
+    max-width: 708px;
+}
+
+.banner-title{
+    width: 708px;
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.banner-description{
+    width: 634px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.btn-primary{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    border-style: none;
+}
+
+.banner-image{
+    width: 635px;
+    height: 800px;
+}
+
+/* header design ends here */
+
+
+/* main section starts here */
+
+
+
+/* featured section starts here */
+
+
+.featured-section-content{
+    text-align: center;
+    margin-top: 180px;
+    margin-bottom: 125px;
+}
+
+.featured-section-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.featured-section-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.featured-section-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.featured-section-image-title{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: underline;
+}
+
+
+
+.featured-section-image-1{
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    text-align: center;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.featured-section-image-2{
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    text-align: center;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+}
+
+.featured-section-image-3{
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    text-align: center;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+/* featured section ends here */
+
+/* product cart starts here */
+
+
+.product-cart{
+    margin: 125px 0;
+    padding: 50px;
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
+.cart-heading{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.cart-content{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.cart{
+    background-color: #ede6e6;
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    text-align: left;
+    border-radius: 5px;
+    box-shadow: 6px 12px 8px rgb(227, 226, 226);
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-cart{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    background: #E55473;
+    padding: 10px 20px;
+    border-style: none;
+}
+
+
+/* delivery banner starts here */
+
+.delivery-section{
+    margin: 0 auto;
+    margin-top: 125px;
+    margin-bottom: 125px;
+    max-width: 1440px;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+/* delivery banner starts here */
+
+
+/* advertisement banner starts here */
+
+.advertisement-banner{
+    width: auto;
+    background-color: rgba(229, 84, 115, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 240px 0px 240px;
+    margin-top: 125px;
+}
+
+.advertisement-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.advertisement-title{
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.advertisement-title span{
+    color: #E55473;
+}
+
+.advertisement-description{
+    width: 594px;
+    margin-bottom: 25px;
+}
+
+.advertisement-banner-image{
+    padding: 100px 0;
+}
+
+/* advertisement banner ends here */
+
+
+
+/* social media starts here */
+
+.social-media{
+    margin-top: 125px;
+    margin-bottom: 125px;
+}
+
+.social-media-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.social-media-content-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.social-media-content-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    width: 594px;
+    margin-bottom: 50px;
+}
+
+.social-media-images img{
+    margin-right: 25px;
+}
+
+.social-media-images img:last-child{
+    margin-right: 0px;
+}
+
+.social-media-images{
+    text-align: center;
+}
+
+/* social media ends here */
+
+
+
+/* promotion banner starts here */
+
+.promotion-banner{
+    width: 1440px;
+    margin: 0 auto;
+    border-radius: 8px;
+    background: url(images/Rectangle\ 9.png), no-repeat;
+}
+
+.promotion-banner-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.promotion-banner-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 120px;
+    margin-bottom: 20px;
+}
+
+.promotion-banner-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.promotion-banner-content input{
+    width: 700px;
+    margin-right: 15px;
+    padding: 20px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.promotion-banner-inputfield{
+    margin-bottom: 120px;
+}
+/* promotion banner ends here */
+
+
+/* main section ends here */
+
+
+/* footer section starts here */
+
+footer{
+    background-color: #111010;
+    padding-top: 125px;
+    padding-bottom: 125px;
+    margin-top: 125px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer span{
+    color: #E55473;
+}
+
+.footer-title{
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.footer-description-1{
+    color: rgba(255, 255, 255, 0.90);
+    width: 625px;
+    text-align: center; 
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.footer-description-2{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* footer section ends here */
