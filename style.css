@@ -200,48 +200,7 @@
 /* delivery banner starts here */
 
 
-/* advertisement banner starts here */
 
-.advertisement-banner{
-    width: auto;
-    background-color: rgba(229, 84, 115, 0.05);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0px 240px 0px 240px;
-    margin-top: 125px;
-}
-
-.advertisement-content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.advertisement-title{
-    color: #272727;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    margin-bottom: 30px;
-}
-
-.advertisement-title span{
-    color: #E55473;
-}
-
-.advertisement-description{
-    width: 594px;
-    margin-bottom: 25px;
-}
-
-.advertisement-banner-image{
-    padding: 100px 0;
-}
-
-/* advertisement banner ends here */
 
 
 
